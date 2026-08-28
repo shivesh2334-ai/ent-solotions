@@ -3,12 +3,7 @@ import Image from 'next/image';
 
 function LogoMark() {
   return (
-    function LogoMark() {
-  return (
     <Image src="/images/logo.png" alt="ENT Solution logo" width={40} height={40} className="object-contain" />
-  );
-}
-
   );
 }
 
