@@ -61,21 +61,7 @@ export default function Hero() {
 
         <div className="relative animate-fadeUp mx-auto md:mx-0" style={{ animationDelay: '0.12s' }}>
           <div className="relative w-full max-w-sm aspect-[4/5] rounded-[2rem] overflow-hidden bg-sage border border-teal-900/10 shadow-[0_20px_60px_-25px_rgba(13,59,62,0.45)]">
-            {/*
-              Replace this placeholder by adding a photo to /public/images/doctor-portrait.jpg
-              and swapping the block below for:
-              <Image src="/images/doctor-portrait.jpg" alt={clinic.doctor} fill className="object-cover" priority />
-
-            */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-teal-900/50 px-8 text-center">
-              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="1.4" />
-                <path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
-              </svg>
-              <p className="font-mono text-xs leading-relaxed">
-                Add doctor-portrait.jpg to /public/images
-              </p>
-            </div>
+            <Image src="/images/doctor-portrait.jpg" alt={clinic.doctor} fill className="object-cover" priority />
           </div>
           <div className="absolute -bottom-5 -left-5 hidden sm:block bg-cream border border-teal-900/10 rounded-2xl px-5 py-3 shadow-lg">
             <p className="font-mono text-[10px] uppercase eyebrow text-teal-800/70">By appointment</p>
