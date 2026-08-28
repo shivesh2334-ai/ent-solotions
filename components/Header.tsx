@@ -1,4 +1,5 @@
 import { clinic, whatsappLink } from '@/lib/data';
+import Image from 'next/image';
 
 function LogoMark() {
   return (
