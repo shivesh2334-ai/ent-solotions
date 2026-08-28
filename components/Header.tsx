@@ -2,17 +2,12 @@ import { clinic, whatsappLink } from '@/lib/data';
 
 function LogoMark() {
   return (
-    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-      <circle cx="20" cy="20" r="19" stroke="#124F53" strokeWidth="1.5" />
-      <path
-        d="M12 22c0-5 3.5-9 8-9s8 4 8 9-3 7-5.5 7c-1.7 0-2.5-1.2-2.5-3v-4"
-        stroke="#C98A3E"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        fill="none"
-      />
-      <circle cx="19.5" cy="22" r="1.6" fill="#124F53" />
-    </svg>
+    function LogoMark() {
+  return (
+    <Image src="/images/logo.png" alt="ENT Solution logo" width={40} height={40} className="object-contain" />
+  );
+}
+
   );
 }
 
