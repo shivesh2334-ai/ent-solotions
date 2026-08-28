@@ -65,6 +65,7 @@ export default function Hero() {
               Replace this placeholder by adding a photo to /public/images/doctor-portrait.jpg
               and swapping the block below for:
               <Image src="/images/doctor-portrait.jpg" alt={clinic.doctor} fill className="object-cover" priority />
+
             */}
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-teal-900/50 px-8 text-center">
               <svg width="56" height="56" viewBox="0 0 24 24" fill="none" aria-hidden="true">
