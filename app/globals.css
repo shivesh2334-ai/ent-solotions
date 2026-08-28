@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #FAF7F1;
+  color: #16201F;
+}
+
+::selection {
+  background-color: #C98A3E;
+  color: #FAF7F1;
+}
+
+:focus-visible {
+  outline: 2px solid #C98A3E;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Signature audiogram/waveform rule used as a section divider */
+.waveform-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: 22px;
+}
+
+.waveform-rule span {
+  display: block;
+  width: 3px;
+  border-radius: 2px;
+  background-color: currentColor;
+  opacity: 0.55;
+}
+
+.card-hover {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+.eyebrow {
+  letter-spacing: 0.16em;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
