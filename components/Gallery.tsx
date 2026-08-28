@@ -75,6 +75,10 @@ export default function Gallery() {
             </div>
           ))}
         </div>
+
+        <p className="mt-4 font-mono text-[11px] text-teal-900/50 text-center sm:text-left">
+          Disclaimer: Representative images, may be different from original.
+        </p>
       </div>
     </section>
   );
