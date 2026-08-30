@@ -79,7 +79,6 @@ export const serviceGroups: ServiceGroup[] = [
  * See /public/images/README.md for size and naming guidance.
  */
 export const galleryImages = [
-  { src: '/images/clinic-reception.jpg', alt: 'ENT Solution clinic reception' },
   { src: '/images/consultation-room.jpg', alt: 'Consultation room' },
   { src: '/images/endoscopy-setup.jpg', alt: 'Endoscopy and diagnostic setup' },
   { src: '/images/audiometry-room.jpg', alt: 'Audiometry testing room' },

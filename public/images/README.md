@@ -6,7 +6,6 @@ automatically on the site (no code changes needed):
 | Filename                  | Used for                                  |
 |----------------------------|--------------------------------------------|
 | `doctor-portrait.jpg`      | Dr. Arijit Chakraborty's photo in the hero section (also see note in `components/Hero.tsx`) |
-| `clinic-reception.jpg`     | Gallery — reception                        |
 | `consultation-room.jpg`    | Gallery — consultation room                |
 | `endoscopy-setup.jpg`      | Gallery — endoscopy / diagnostic setup     |
 | `audiometry-room.jpg`      | Gallery — audiometry room                  |
