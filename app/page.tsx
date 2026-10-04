@@ -1,3 +1,4 @@
+import { siteUrl } from '@/lib/site';
 import AnnouncementStrip from '@/components/AnnouncementStrip';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -12,7 +13,7 @@ const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'MedicalClinic',
   name: clinic.name,
-  url: 'https://ent-solotions.vercel.app',
+  url: siteUrl,
   telephone: clinic.phoneIntl,
   email: clinic.email,
   address: {

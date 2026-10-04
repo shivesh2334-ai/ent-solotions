@@ -1,6 +1,5 @@
+import { siteUrl } from '@/lib/site';
 import type { MetadataRoute } from 'next';
-
-const siteUrl = 'https://ent-solotions.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
