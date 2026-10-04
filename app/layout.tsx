@@ -1,3 +1,4 @@
+import { siteUrl } from '@/lib/site';
 import type { Metadata } from 'next';
 import { Fraunces, Inter, IBM_Plex_Mono } from 'next/font/google';
 import './globals.css';
@@ -7,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', weight: ['40
 const plexMono = IBM_Plex_Mono({ subsets: ['latin'], variable: '--font-plex-mono', weight: ['400', '500', '600'], display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ent-solotions.vercel.app'),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'ENT Solution | Dr. Arijit Chakraborty — Senior ENT Consultant, Shalimar Bagh, Delhi',
     template: '%s | ENT Solution',
